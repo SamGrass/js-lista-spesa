@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Shadows Into Light", cursive;
+}
+
+.container {
+    background-color: rgb(29, 32, 76);
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    height: 5%;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+/* regole paper */
+.paper {
+    margin: 0 auto;
+    background-image: url(../img/—Pngtree—torn\ notebook\ paper\ white\ coil_8243304.png);
+    background-size: cover;
+    background-position: 50%;
+    width: 60%;
+    height: 95%;
+    position: relative;
+}
+
+/* regole lista */
+ul {
+    position: absolute;
+    top: 13%;
+    left: 25%;
+    font-size: 2.5rem;
+    list-style: none;
+    max-height: 70vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
